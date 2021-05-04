@@ -10,7 +10,7 @@ public class ConnectionFactory {
 			return DriverManager.getConnection(
 					"jdbc:mysql://127.0.0.1/vehicle_rental",
 					"root",
-					"5449"); 
+					"12345"); 
 		} catch (SQLException e) {
 			throw new RuntimeException(e);
 		} catch (ClassNotFoundException e) {

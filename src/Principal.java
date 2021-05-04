@@ -16,7 +16,7 @@ public class Principal {
 			 EmployeeDAO employeeDAO = new EmployeeDAO();
 			 employeeDAO.store(employee);
 			 
-			 User user = new User(0, " Matheus Catalan", "991244528", "46873747866", "Masculino", "2021-04-12 21:13:10");
+			 User user = new User(0, "Matheus Catalan", "991244528", "46873747866", "Masculino", "2021-04-12 21:13:10");
 			 UserDAO userDAO = new UserDAO();
 			 userDAO.store(user);
 			 
