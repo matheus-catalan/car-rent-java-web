@@ -1,0 +1,15 @@
+.container-content{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 60px;
+	flex-direction: column;
+}
+
+.row-title{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 60px;
+	flex-direction: row;
+}
